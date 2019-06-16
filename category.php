@@ -109,6 +109,24 @@ $_SESSION["favcolor"] = $dropDownVal;
     // output data of each row
 								while($row = $result->fetch_assoc()) {
 									$varPic  =  $row['an_pic']."p".$row['an_id'].".jpg";
+									
+									
+									if ($row['an_type'] == "Dead Cat")
+									{
+										$varPic  = "/images/PetPictures/deadcat.png";
+									}
+									if ($row['an_type'] == "Dead Dog")
+									{
+										$varPic  = "/images/PetPictures/deaddog.jpeg";
+									}
+									if ($row['an_type'] == "Bird")
+									{
+										$varPic  = "/images/PetPictures/chicken.jpg";
+									}
+
+
+
+
 									?>
 
 
