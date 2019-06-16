@@ -9,7 +9,7 @@ and with touch interactions. 4. Extra bonus points if you add animal images to t
 
 Developers: Ryan Glynn, Daniel Cooney 
 
-Coding Platrom: Sublime Text 3
+Coding Platform: Sublime Text 3
 
 Additional Programs Used: Xampp
 
